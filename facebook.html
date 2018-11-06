@@ -3,28 +3,42 @@
   <head>
     <meta charset="utf-8">
     <title>facebook</title>
-    <link rel="stylesheet" href="./facebook.css">
+    <link rel="stylesheet" href="./2facebook.css">
   </head>
+
+
   <body>
     <div class="facebook">
       <div class="header">facebook</div>
-        <form>
-          <p>
-            <label for="mail">
-              <span>Email or Phone </span><br>
-              </label>
-              <input type="email" id="mail" name="usermail">
-            </p>
-          <p>
-            <label for="pwd">
-              <div class="passNinput">
-                <span>Password </span><br>
-                </label>
-                <input type="password" id="pwd" name="password">
-              </div>
-          </p>
-          <input class="logn" type="submit" value="Log In"></input>
-        </form>
+        <div class="logIn_menu">
+          <table>
+            <label for="usermail"></label>
+            <tbody>
+              <tr>
+                <td>Email or phone</td>
+                <td>Password</td>
+              </tr>
+              <tr>
+                <div class="inputbox">
+                  <td>
+                    <input type="email" id="mail" name="usermail">
+                  </td>
+                  <td>
+                    <input type="password" id="pwd" name="password">
+                  </td>
+                </div>
+                <td>
+                  <input class="logn" type="submit" value="Log In"></input>
+                </td>
+              </tr>
+              <tr>
+                <td></td>
+                <td id="passRecovery">Forget password?</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
     </div>
+
   </body>
 </html>

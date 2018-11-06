@@ -41,3 +41,82 @@ button,
 input[type="submit"] {
   cursor: pointer;
 }
+
+
+
+.facebook {
+  display: flex;
+  justify-content: space-between;
+  background-color: #3b5998;
+}
+
+
+.header {
+  padding-top: 25px;
+  padding-bottom: 10px;
+  padding-left: 90px;
+  font-size: 45px;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: white;
+}
+
+
+body {
+
+}
+
+
+.logIn_menu {
+  padding-top: 15px;
+  padding-right: 15px;
+  font-size: 14px;
+}
+
+.inputbox {
+  
+}
+
+td {
+  padding: 1px;
+  padding-left: 10px;
+}
+
+tbody {
+  color: white;
+  width: 393px;
+  height: 65px;
+}
+
+#passRecovery {
+  font-size: 14px;
+  font-family: inherit;
+  font-weight: normal;
+  color: #9cb4d8;
+}
+
+.logn {
+  padding-left: 6px;
+  border: 1px solid #ccd0d5;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 18px;
+  color: white;
+  background-color: #4267b2;
+  border-color: #29487d;
+  padding-right: 6px;
+  padding-left: 6px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  text-align: center;
+  margin-right: 55px;
+}
+
+input {
+  display: flex;
+  justify-content:flex-end;
+  background-color: white;
+  font-family: sans-serif;
+  color: black;
+  font-size: 15px
+}
