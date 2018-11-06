@@ -74,7 +74,7 @@ body {
 }
 
 .inputbox {
-  
+
 }
 
 td {
@@ -119,4 +119,49 @@ input {
   font-family: sans-serif;
   color: black;
   font-size: 15px
+}
+
+.mainbody {
+  font-family: sans-serif;
+  font-weight: bold;
+  letter-spacing: normal;
+  text-rendering: optimizeLegibility;
+}
+
+.info {
+  display: inline-flex;
+}
+
+.inputsign {
+}
+
+
+.signup {
+  font-size: 36px;
+  padding-left: 150px;
+  padding-top: 0px;
+
+}
+
+#p2 {
+  font-size: 19px;
+  line-height: 126%;
+  font-weight: normal;
+  font-family: sans-serif;
+  color: #3a3737db;
+}
+
+.bodyNsign {
+  padding: 60px;
+  padding-top: 50px;
+  padding-left: 100px;
+  font-size: 28px;
+  font-family: sans-serif;
+  font-weight: bold;
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+body {
+  background-color: #edf0f5;
 }
