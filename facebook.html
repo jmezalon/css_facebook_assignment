@@ -17,7 +17,7 @@
                 <td>Email or phone</td>
                 <td>Password</td>
               </tr>
-              <tr>
+              <tr id="inputboxes">
                 <div class="inputbox">
                   <td>
                     <input type="email" id="mail" name="usermail">
@@ -66,20 +66,92 @@
         <form>
           <div class="info">
             <p id="pname">
-            <input class="chk" type="text" name="firstname" placeholder="First Name">
+            <input class="chk" type="text" name="firstname" placeholder="First name">
             </p>
-            <input class="chk2" type="text" name="lastname" placeholder="Last Name">
+            <input class="chk2" type="text" name="lastname" placeholder="Last name">
           </div>
           <div class="emailNum">
-          <input class="chk3" type="text" name="MobilNumberOremail" placeholder="Mobile Number or email">
+          <input class="chk3" type="text" name="MobilNumberOremail" placeholder="Mobile number or email">
         </div>
-          <input class="chk4" type="text" name="password" placeholder="New Password">
+          <input class="chk4" type="password" id="pwd" placeholder="New Password">
         </form>
+        <div class="birthday">
+          <p>Birthday</p>
+          <div class="options">
+          <select class="month" name="Month">
+            <option value="Month">Month</option>
+            <option value="Jan">Jan</option>
+            <option value="Feb">Feb</option>
+            <option value="Mar">Mar</option>
+            <option value="Apr">Apr</option>
+            <option value="May">May</option>
+            <option value="Jun">Jun</option>
+            <option value="Jul">Jul</option>
+            <option value="Aug">Aug</option>
+            <option value="Sep">Sep</option>
+            <option value="Oct">Oct</option>
+            <option value="Nov" selected>Nov</option>
+            <option value="Dec">Dec</option>
+          </select>
+          <select class="day" name="Day">
+            <option value="Day">Day</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7" selected>7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+          </select>
+          <select class="year" name="Year">
+            <option value="Year">Year</option>
+            <option value="1995">1995</option>
+            <option value="1994">1994</option>
+            <option value="1993" selected>1993</option>
+            <option value="1992">1992</option>
+            <option value="1991">1991</option>
+          </select>
+
+          <div class="question">
+            <p>why do I need to provide my birthday?</p>
+          </div>
+
+          </div>
+          <div class="radiobutt">
+            <span "radiobutt">
+              <input type="radio" name="Female">
+              <label class="Gender">Female</label>
+            </span>
+            <span "radiobutt">
+              <input type="radio" name="Female">
+              <label class="Gender">Male</label>
+            </span>
+          </div>
+        </div>
+        <div id="agreement">
+          <p>By clicking Sign Up, you agree to our Terms, Data Policy and Cookies Policy. You may receive SMS Notifications from us and can opt out any time.</p>
+          <br>
+          <br>
+          <button id="singupbutt" type="submit" name="button">Sign Up</button>
+          <br>
+          <br>
+          <div id="minicurve"></div>
+          <br>
+          <br>
+          <p id="lastline">Create a Page for a celebrity, band or business.</p>
+        </div>
       </div>
     </div>
+  </body>
+
       <div class="footer">
         <ul id="language">
-          <li>English (US) </li>
+          <li id="eng">English (US) </li>
           <li>Espanol </li>
           <li>Français (France)</li>
           <li>中文(简体)</li>
@@ -132,5 +204,4 @@
     </div>
     </div>
     </div>
-  </body>
 </html>
